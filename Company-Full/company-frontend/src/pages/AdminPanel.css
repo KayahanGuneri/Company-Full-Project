@@ -1,0 +1,89 @@
+.admin-container {
+  padding: 20px;
+  background: #f4f7fc;
+  min-height: 100vh;
+}
+
+.admin-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.admin-table th, .admin-table td {
+  padding: 14px;
+  text-align: left;
+}
+
+.admin-table th {
+  background: #2c3e50;
+  color: white;
+}
+
+.admin-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.admin-table tr:hover {
+  background: #eef3ff;
+  transition: 0.3s;
+}
+
+.role-admin {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.role-user {
+  color: #3498db;
+  font-weight: bold;
+}
+
+.status-active {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.status-passive {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.admin-button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 5px;
+}
+
+.admin-button.promote {
+  background: #f39c12;
+  color: white;
+}
+
+.admin-button.promote:hover {
+  background: #d35400;
+}
+
+.admin-select {
+  margin-left: 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
